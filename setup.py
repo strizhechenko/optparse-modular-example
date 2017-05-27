@@ -22,7 +22,6 @@ setuptools.setup(
     keywords='example optparse modular utils',
     description='I tried to find a nice way for modular optparse'
         'that would provide opportunity to create meta-utils easily',
-    long_description=(read('README.rst')),
     packages=setuptools.find_packages(exclude=['tests*']),
     scripts=[os.path.join('utils/', script) for script in os.listdir('utils/')],
     classifiers=[
